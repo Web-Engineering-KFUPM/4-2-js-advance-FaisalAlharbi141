@@ -103,6 +103,22 @@ Task:
 3) Handle the error using try { ... } catch (e) { ... } finally { ... } and log messages
    in each block so you can see the flow of control.
 */
+function firstItem(arr) {
+  if (!Array.isArray(arr) || arr.length === 0) {
+    throw new Error("Array must be non-empty.");
+  }
+  return arr.length;
+}
+try{
+   const emptArr = firstItem([]);
+}
+catch(e){
+   console.log("Error: ", e.message);
+}
+finally{
+   console.log("Error displayed");
+}
+
 
 // ===================================================================================
 // TODO-7: REGEX + forEach — find words containing 'ab' and log matches from the list
