@@ -73,6 +73,10 @@ Task:
 2) Find and display the current day of month, month (0–11), and year.
 //    (Hint: getDate(), getMonth(), getFullYear() )
 */
+const myDate = new Date();
+console.log("Day of month: "+ myDate.getDate());
+console.log("Month: "+ myDate.getMonth());
+console.log("Year: "+ myDate.getFullYear());
 
 // ============================================================
 // TODO-5: ARRAY + SPREAD — find MIN and MAX from 10 numbers
