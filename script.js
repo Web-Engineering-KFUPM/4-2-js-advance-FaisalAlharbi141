@@ -75,7 +75,7 @@ Task:
 */
 const myDate = new Date();
 console.log("Day of month: "+ myDate.getDate());
-console.log("Month: "+ myDate.getMonth());
+console.log("Month: "+ (myDate.getMonth()+1));
 console.log("Year: "+ myDate.getFullYear());
 
 // ============================================================
