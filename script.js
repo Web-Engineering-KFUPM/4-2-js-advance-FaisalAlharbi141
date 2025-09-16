@@ -87,6 +87,11 @@ Task:
 2) Use spread syntax with Math.min(...) and Math.max(...) to find extremes.
 3) Display both values.
 */
+const myArr = [689,22,4,5,33,6,8,9,2,90];
+const min = Math.min(...myArr);
+const max = Math.max(...myArr);
+console.log("Min array: " + min);
+console.log("Max array: " + max);
 
 // ===================================================================
 // TODO-6: EXCEPTIONS — try/catch/finally with EMPTY ARRAY edge case
