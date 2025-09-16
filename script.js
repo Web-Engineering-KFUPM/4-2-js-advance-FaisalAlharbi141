@@ -57,6 +57,12 @@ Task:
 1) Create a String object or plain string.
 2) Use .charAt(index) and .length to output characters and size.
 */
+const myString = "i am Taking SWE363";
+for (const i in myString){
+   console.log("Charectars are:" + myString[i]);
+}
+console.log("Length is: " + myString.length); 
+
 
 // ===================================
 // TODO-4: DATE — day, month, and year
